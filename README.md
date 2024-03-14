@@ -8,6 +8,10 @@ This project provides a quick setup for running nginx and PHP containers using D
 2. Navigate to the project directory: `cd phpspace`
 3. Start the containers: `docker compose up -d`
 
+## PHP Image Overview
+
+[ghcr.io/4lkaid/php:latest](https://github.com/4lkaid/docker-php)
+
 ## Configuration Example
 
 File path: `path/phpspace/html/demo/nginx.conf`
@@ -32,3 +36,7 @@ server {
   }
 }
 ```
+
+## License
+
+Licensed under the [MIT License](LICENSE).
